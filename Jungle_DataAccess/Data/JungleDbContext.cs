@@ -26,6 +26,7 @@ namespace Jungle_DataAccess.Data
         public DbSet<Guide>? Guide { get; set; }
         public DbSet<Travel>? Travel { get; set; }
         public DbSet<TravelRecommendation>? TravelRecommendation { get; set; }
+        public DbSet<Reservation>? Reservation { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
