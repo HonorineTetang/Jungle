@@ -34,5 +34,9 @@ namespace Jungle_Models.Models
 
         //Propriété de navigation 0 ou 1 à 1
         public TravelRecommendation? TravelRecommendation { get; set; }
+
+        //Propriété de navigation 1 à plusieurs, côté plusieurs
+        public ICollection<Rervation>? Reservation { get; set; }
+       
     }
 }
